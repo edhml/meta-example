@@ -9,7 +9,7 @@ DEPENDS = ""
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=96af5705d6f64a88e035781ef00e98a8"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}-${PV}:"
 
 SRC_URI = "https://github.com/edhml/meta-example/tree/master/recipes-example/bbexample/bbexample-lt-1.0/bbexample-${PV}.tar.gz"
 
