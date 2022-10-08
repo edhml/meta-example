@@ -11,10 +11,10 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=96af5705d6f64a88e035781ef00e98a8"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI = "https://github.com/DynamicDevices/bbexample/releases/download/v1.0/bbexample-${PV}.tar.gz"
+SRC_URI = "https://github.com/edhml/meta-example/tree/master/recipes-example/bbexample/bbexample-lt-1.0/bbexample-${PV}.tar.gz"
 
-SRC_URI[md5sum] = "e15723f0d5ac710bbe788cd3a797bc44"
-SRC_URI[sha256sum] = "0b34eb133596348bb6f1a3ef5e05e4d5bf0c88062256affe768d8337d7cc8f83"
+SRC_URI[md5sum] = "d653454d70f0effce3f11dd4579dd7ea"
+SRC_URI[sha256sum] = "c2263368c7633d95afbc4f388d611bb2a5010131beff61d723291eb882655d96"
 
 # Make sure our source directory (for the build) matches the directory structure in the tarball
 S = "${WORKDIR}/bbexample-${PV}"
